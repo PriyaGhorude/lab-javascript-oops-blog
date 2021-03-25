@@ -8,7 +8,7 @@ class Blog{
 
         addTitle()
         {
-            var title_card = document.createElement('h1');
+            var title_card = document.createElement('title');
             title_card.setAttribute("id","blog-title");
             console.log(title_card);
             document.getElementById('card-text').appendChild(title_card);
@@ -17,7 +17,7 @@ class Blog{
 
         addDescription()
         {
-            var description_card=document.createElement("p");
+            var description_card=document.createElement("detail");
             description_card.setAttribute("id","blog-descr");
             document.getElementById("card-text").appendChild(description_card);
             console.log(this.details);
